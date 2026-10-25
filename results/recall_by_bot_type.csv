@@ -1,0 +1,5 @@
+bot type,k-means,DBSCAN noise,DBSCAN noise+bot clusters,Isolation Forest 3%,Rules R1-R3
+empty_ua,1.0,1.0,1.0,1.0,1.0
+fast_scraper,1.0,0.4,1.0,1.0,1.0
+login_bruteforce,1.0,0.2,1.0,1.0,1.0
+url_scanner,1.0,0.0,1.0,1.0,1.0

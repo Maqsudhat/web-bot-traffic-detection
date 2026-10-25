@@ -1,0 +1,8 @@
+evasion level,caught by rules (IPs),caught by IForest (IPs),guesses/hour/IP,days for 10k guesses (1 IP),IPs needed for 10k in 24 h
+"E0 baseline (1 s, python UA)",20/20,20/20,3474.2,0.1,1
+E1 + browser UA & fetch CSS/img,20/20,20/20,3334.7,0.1,1
+"E2 + slow, jittered (mean 5 s)",20/20,20/20,713.6,0.6,1
+E3 + slower (mean 30 s),20/20,20/20,119.7,3.5,4
+E4 + pad 3 benign GETs per guess (8 s),0/20,20/20,111.9,3.7,4
+"E5 burst of 10, sleep 31 min",0/20,20/20,25.3,16.4,17
+"E6 burst of 6 + 2 benign GETs each, sleep 31 min",0/20,20/20,14.8,28.1,29

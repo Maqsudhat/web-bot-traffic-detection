@@ -1,0 +1,7 @@
+method,flagged,TP,FP,FN,precision,recall,F1,FP_declared_bot_ua,FP_other
+k-means k=15 (best silhouette),42,40,2,0,0.952,1.0,0.976,2,0
+"DBSCAN noise only (eps=0.38, q=0.9)",243,16,227,24,0.066,0.4,0.113,68,159
+"DBSCAN noise + bot clusters (eps=0.38, q=0.9)",267,40,227,0,0.15,1.0,0.261,68,159
+Isolation Forest contamination=0.03,93,40,53,0,0.43,1.0,0.602,3,50
+"Rules R1-R3 (dev bots, seed 42)",41,40,1,0,0.976,1.0,0.988,1,0
+"Rules R1-R3 (NEW bots, seed 7)",41,40,1,0,0.976,1.0,0.988,1,0
